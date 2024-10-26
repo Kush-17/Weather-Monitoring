@@ -97,7 +97,7 @@ To run the Weather Monitoring System locally, you need to have the following ins
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/weather-monitoring.git
+   git clone https://github.com/Kush-17/weather-monitoring.git
    cd weather-monitoring
    ```
 
