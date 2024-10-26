@@ -9,7 +9,6 @@ Welcome to the **Weather Monitoring System**, a real-time weather application th
 - **City Search Functionality:** Users can search for any city and retrieve its weather data instantly.
 - **Data Storage:** Weather data is stored in Firebase, ensuring that information is readily accessible.
 - **Dynamic Updates:** The UI updates dynamically to show weather conditions without needing to refresh the page.
-- **Weather Emojis:** Displays appropriate emojis based on weather conditions for a more engaging user experience.
 - **Responsive Design:** The application is designed to be visually appealing on various devices, with a clean and modern UI.
 
 ## Technologies Used
