@@ -1,0 +1,66 @@
+.app-title {
+    text-align: center;
+    /* Center the title */
+    color: #4a90e2;
+    /* Title color */
+    font-size: 2.5em;
+    /* Title size */
+    margin-bottom: 1rem;
+    /* Space below title */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    /* Change to vertical layout */
+    align-items: center;
+    /* Center align items */
+    gap: 10px;
+    /* Space between input and button */
+}
+
+.city-input {
+    padding: 10px;
+    /* Padding for input field */
+    font-size: 1em;
+    /* Font size for input */
+    border-radius: 8px;
+    /* Rounded corners */
+    border: 2px solid #4a90e2;
+    /* Border color */
+    width: 250px;
+    /* Fixed width */
+}
+
+.search-button {
+    padding: 10px 15px;
+    /* Padding for button */
+    font-size: 1.1em;
+    /* Font size for button */
+    background-color: #4a90e2;
+    /* Button color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* No border */
+    border-radius: 8px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s;
+    /* Transition effect */
+}
+
+.search-button:hover {
+    background-color: #357abd;
+    /* Darker shade on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+@media (max-width: 600px) {
+    .weather-card {
+        margin: 10px;
+        /* Reduce margin on smaller screens */
+    }
+}

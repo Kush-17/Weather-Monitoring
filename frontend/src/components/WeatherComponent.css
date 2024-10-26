@@ -1,0 +1,60 @@
+.weather-card {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
+    border-radius: 15px;
+    /* More rounded corners */
+    padding: 15px;
+    /* Space inside the card */
+    margin: 20px;
+    /* Space around the card */
+    text-align: center;
+    /* Center text */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    /* Softer shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Transition effects */
+}
+
+.weather-card:hover {
+    transform: scale(1.02);
+    /* Slightly enlarge on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    /* Deeper shadow on hover */
+}
+
+.weather-details p {
+    margin: 8px 0;
+    /* Increased space between paragraphs */
+    font-size: 18px;
+    /* Decreased font size further for better fitting */
+    color: #333;
+    /* Darker text color */
+    font-weight: 400;
+    /* Regular text weight */
+}
+
+.weather-details p strong {
+    color: #4a90e2;
+    /* Highlighted color for strong text */
+    font-size: 18px;
+    /* Slightly larger font size for strong text */
+}
+
+.error-message {
+    color: #d9534f;
+    /* Error message color */
+    font-weight: bold;
+    /* Bold error message */
+    font-size: 16px;
+    /* Increase error message size */
+}
+
+.weather-card h2 {
+    font-size: 2em;
+    /* Decrease heading size */
+    color: #4a90e2;
+    /* Consistent heading color */
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.6);
+    /* Light shadow for heading */
+    margin-bottom: 15px;
+    /* Space below heading */
+}
